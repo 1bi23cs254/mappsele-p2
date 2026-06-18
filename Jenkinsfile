@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: main,
+                git branch: 'main',
                 url: 'https://github.com/1bi23cs254/mappsele-p2.git'
             }
         }
